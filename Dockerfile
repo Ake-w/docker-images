@@ -1,5 +1,5 @@
 FROM alpine
 
 RUN apk update && \
-    apk add openssh rsyn && \
+    apk add openssh rsync && \
     rm -rf /var/cache/apk/*
